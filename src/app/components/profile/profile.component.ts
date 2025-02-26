@@ -41,18 +41,16 @@ export class ProfileComponent implements OnInit {
    * - Si el token no es válido, redirige a la página de inicio de sesión.
    */
   ngOnInit(): void {
-    const token = localStorage.getItem('token');
-    if (token) {
-      try {
-        const decodedToken: any = jwt_decode(token);
-        this.nombreUsuario = decodedToken.nombre;  // Mapeado al campo 'nombre'
-        this.fotoPerfil = decodedToken.foto_perfil;  // Mapeado al campo 'foto_perfil'
-      } catch (error) {
-        console.error('Error al decodificar el token:', error);
-        this.router.navigate(['/login']);
-      }
+    // Recuperar el usuario autenticado desde sessionStorage
+    const usuarioGuardado = sessionStorage.getItem('usuarioActual');
+
+    if (usuarioGuardado) {
+      const usuario = JSON.parse(usuarioGuardado);
+      this.nombreUsuario = usuario.nombre;
+      this.fotoPerfil = usuario.fotoPerfil || ''; // Si en el futuro agregas foto de perfil
     } else {
-      this.router.navigate(['/login']);
+      console.error('No hay usuario autenticado');
+      this.router.navigate(['/registro']); // Redirige al login si no hay usuario
     }
   }
 }
