@@ -52,10 +52,11 @@ export class NavbarComponent implements AfterViewInit {
         // Obtener el ID del menú correspondiente
         const menuId = this.id.replace('Dropdown', 'Menu');
 
-        // Configurar el temporizador para cerrar el menú después de 1.5 segundos
-        setTimeout(() => cerrarMenu(menuId), 1500);
+        // Configurar el temporizador para cerrar el menú después de 1 segundos
+        setTimeout(() => cerrarMenu(menuId), 1000);
       });
     });
+    
 
     // Cerrar los menús al hacer clic fuera de ellos
     document.addEventListener('click', (event: MouseEvent) => {

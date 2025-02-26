@@ -36,5 +36,5 @@ export const appRoutes: Routes = [
     ]
   },
 
-  { path: '**', redirectTo: 'login', pathMatch: 'full' } // Redirección a login si no hay coincidencias
+  
 ];

@@ -46,7 +46,7 @@ export class LoginComponent {
    *
    * - Verifica que el formulario sea válido.
    * - Busca el usuario en `localStorage` y valida la contraseña.
-   * - Si el inicio de sesión es exitoso, almacena los datos en `sessionStorage` y redirige.
+   * - Si el inicio de sesión es correcto, almacena los datos en `sessionStorage` y redirige.
    */
   onSubmit(): void {
     if (this.loginForm.valid) {
