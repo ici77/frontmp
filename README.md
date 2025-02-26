@@ -21,8 +21,8 @@ Mamás Perrunas es una plataforma para familias con perros, ofreciendo una comun
 🌐 **Web:** [https://mamasperrunas.netlify.app/](https://mamasperrunas.netlify.app/)  
 📌 **Repositorio:** [https://github.com/ici77/frontmp](https://github.com/ici77/frontmp)  
 
-** 📘 Documentación :**  
- [Memoria del proyecto](documentation/MEMORIA.pdf)
+**Documentacion:**  
+ 📘[Memoria del proyecto](documentation/MEMORIA.pdf)
 
 
 ---
