@@ -1,59 +1,30 @@
-# Frontend
+ 🐶 Mamás Perrunas - Juntos es mejor 🐾
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
-## Development server
 
-To start a local development server, run:
+**Descripción:**  
+Mamás Perrunas es una plataforma para familias con perros, ofreciendo una comunidad interactiva, blog informativo, tienda online afiliada a Amazon, y eventos para el mundo canino.  
 
-```bash
-ng serve
-```
+**Tecnologías utilizadas:**  
+✅ **Frontend:** Angular (Standalone), TypeScript, CSS  
+✅ **Gestión de datos:** JSON, localStorage, sessionStorage  
+✅ **Experiencia de usuario:** Navegación intuitiva, menú optimizado, imágenes generadas por IA  
+✅ **Integraciones:** API para obtener información sobre razas de perros  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+**Funciones destacadas:**  
+✔ **Registro y autenticación de usuarios sin backend**  
+✔ **Blog informativo con categorías y buscador de razas**  
+✔ **Tienda online afiliada a Amazon**  
+✔ **Sección de eventos y servicios para profesionales del mundo canino**  
 
-## Code scaffolding
+**Enlaces:**  
+🌐 **Web:** [https://mamasperrunas.netlify.app/](https://mamasperrunas.netlify.app/)  
+📌 **Repositorio:** [https://github.com/ici77/frontmp](https://github.com/ici77/frontmp)  
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+** 📘 Documentación :**  
+ [Memoria del proyecto](documentation/MEMORIA.pdf)
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este resumen es ideal para la página de GitHub, la introducción para contextualizar el proyecto, y la conclusión para cerrar con una visión de futuro. ¡Dime si quieres ajustar algo! 🚀🐶
