@@ -25,6 +25,3 @@ Mamás Perrunas es una plataforma para familias con perros, ofreciendo una comun
  📘[Memoria del proyecto](documentation/MEMORIA.pdf)
 
 
----
-
-Este resumen es ideal para la página de GitHub, la introducción para contextualizar el proyecto, y la conclusión para cerrar con una visión de futuro. ¡Dime si quieres ajustar algo! 🚀🐶
